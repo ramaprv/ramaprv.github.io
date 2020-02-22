@@ -25,7 +25,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Rama Prashanth
-  image             : https://res.cloudinary.com/ramaprashanth/image/upload/v1582222715/IMG_1354_ojayuh.jpg
+  image             : https://res.cloudinary.com/ramaprashanth/image/upload/v1582222715/dp.jpg
 # behance           : your_username
 # dribbble          : your_username
   email             : rv@ramaprashanth.com
@@ -78,3 +78,6 @@ exclude:
   - CONTRIBUTING.md
   - LICENSE
   - "*.log"
+
+google-analytics:
+  id: "UA-158879927-1"
