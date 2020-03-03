@@ -53,7 +53,7 @@
           {%- assign target = "_self" -%}
         {%- endif -%}
 
-        <a class="nav-item nav-link {{ active_status }}" href="{{ url }}">{{ html_page.title }}</a>
+        <a class="nav-item nav-link {{ active_status }}" target="{{ target }}" href="{{ url }}">{{ html_page.title }}</a>
 
       {% endfor %}
 
