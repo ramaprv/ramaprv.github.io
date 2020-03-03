@@ -1,19 +1,19 @@
 .timeline-body {
   position: relative;
-  background-color: $light;
+  // background-color: $light;
   border-radius: 0 $rounded-borders $rounded-borders 0;
   padding: 5px 0;
 
-  &:after {
-    // Left Border
-    content: "";
-    width: 4px;
-    height: 100%;
-    background-color: $primary;
-    position: absolute;
-    left: -4px;
-    top: 0;
-  }
+  // &:after {
+  //   // Left Border
+  //   content: "";
+  //   width: 4px;
+  //   height: 100%;
+  //   background-color: $primary;
+  //   position: absolute;
+  //   left: -4px;
+  //   top: 0;
+  // }
 
   .timeline-item {
     position: relative;
