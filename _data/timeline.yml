@@ -1,5 +1,6 @@
 - title:  AI4ALL
   weight: 1
+  inverted: True
   location: University of Maryland, College Park
   duration: Summer 2019
   url:  https://inclusion.cs.umd.edu/outreach/ai4all
@@ -10,6 +11,7 @@
 
 - title:  Perception & Robotics Group
   weight: 2
+  inverted: False
   location: University of Maryland, College Park
   duration: Mar 2018 - Aug 2019
   url:  http://prg.cs.umd.edu/
@@ -20,6 +22,7 @@
 
 - title: University of Maryland
   weight: 3
+  inverted: True
   location: College Park, MD
   duration: 2019 - 2020
   url:  https://umd.edu/
@@ -31,6 +34,7 @@
 
 - title:  GrabbnGo
   weight: 4
+  inverted: False
   location: Bangalore, India
   duration: Mar 2018 - Jan 2019
   url:  https://www.grabbngo.com/
@@ -42,6 +46,7 @@
 
 - title:  Ninjacart
   weight: 5
+  inverted: True
   location: Bangalore, India
   duration: Jun 2015 - Jan 2018
   url:  https://www.ninjacart.in/
@@ -52,6 +57,7 @@
 
 - title:  Shout
   weight: 6
+  inverted: False
   location: Bangalore, India
   duration: Jun 2013 - Jun 2015
   url:  https://www.facebook.com/myshouuut/
@@ -62,6 +68,7 @@
 
 - title:  College of Engineering, Guindy, Anna University
   weight: 7
+  inverted: True
   location: Chennai, India
   duration: 2009 - 2013
   url:  https://www.annauniv.edu/
