@@ -1,9 +1,8 @@
 ### Site Settings ###
 title               : Rama Prashanth
 description         : >-
-                      "I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production."
+                      I turn coffee :coffee: into code,
+                      that gives free will to robots :robot:
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : ramaprashanth/ramaprashanth.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : ramaprashanth/ramaprashanth.github.io
