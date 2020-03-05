@@ -27,13 +27,13 @@
     <div class="row">
       <div class="col-lg-12">
         <ul class="timeline">
-          {%- assign timeline = site.data.timeline | sort: 'weight' -%}
+          {% assign timeline = site.data.timeline | sort: 'weight' %}
           {% for item in timeline %}
             {% if item.weight%2 != 0 %}
               <li class="timeline-inverted">
-            {%- else -%}
+            {% else %}
               <li>
-            {%- endif -%}
+            {% endif %}
               <a href="{{ item.url }}" target="_blank">
                 <div class="timeline-image">
                   <img class="img-circle img-responsive" src="{{ item.image }}" alt="{{ item.image_alt }}">
