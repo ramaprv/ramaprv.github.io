@@ -18,8 +18,8 @@
     <div class="container text-center mb-5">
       <p class="lead">Below are some of my skills, and I'm always looking to learn more.</p>
     </div>
-    {% for item in include.source %}
-      <div class="row" style="margin-bottom: 48px">
+    <div class="row" style="margin-bottom: 48px">
+      {% for item in include.source %}
         <div class="col-lg-4 col-md-6 mb-5">
           <span class="service-icon rounded-circle mx-auto mb-3 text-secondary">
             {{ item.icon }}
@@ -29,7 +29,7 @@
           </h4>
           <p class="text-faded mb-0">{{ item.description }}</p>
         </div>
-      </div>
-    {% endfor %}
+      {% endfor %}
+    </div>
   </div>
 </section>
