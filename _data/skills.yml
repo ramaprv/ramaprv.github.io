@@ -1,11 +1,31 @@
-- name: HTML5/CSS3
-  percentage: 90
-  color: danger
+- title:  Computer Vision
+  icon: <i class="far fa-eye fa-2x" style="padding-top:19px;"></i>
+  description:  I have significant research experience in the field of computer vision and
+                I've also created dozens of programs using OpenCV, ROS. 
 
-- name: Go
-  percentage: 80
-  color:
+- title:  Deep Learning
+  icon: <i class="fas fa-brain fa-2x" style="padding-top:19px;"></i>
+  description:  I've worked on many projects involving deep learning and have experience 
+                using Pytorch, Tensorflow and Keras. 
 
-- name: Python
-  percentage: 70
-  color: dark
+- title:  Robotics & Artificial Intelligence
+  icon: <i class="fas fa-robot fa-2x" style="padding-top:19px;"></i>
+  description:  My research experience involves various applications involving the Control,
+                Modeling and Path Planning for Autonomous Robots. I also have worked on 
+                projects with Reinforcement Learning and Rehabilitation Robotics. 
+
+- title:  Python
+  icon: <i class="fab fa-python fa-2x" style="padding-top:19px;"></i>
+  description:  Over the past <b>5 years</b>, I've had extensive experience with Python in the
+                course of my prior work experiences, research, class and personal projects. 
+
+- title:  C/C++
+  icon: <i class="fab fa-cuttlefish fa-2x" style="padding-top:19px;">++</i>
+  description:  I have over <b>4 years</b> of experience programming in C/C++ and most of the
+                projects are related to machine learning and computer vision.
+
+- title:  Full Stack Development
+  icon: <i class="fas fa-laptop-code fa-2x" style="padding-top:19px;"></i>
+  description:  With many years of mobile (iOS and Android) as well as Web 
+                development (AngularJS, Javascript, HTML, CSS) with highly
+                scalable continous deployed backend systems (Python, Java, PHP). 
