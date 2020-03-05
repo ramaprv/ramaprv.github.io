@@ -1,17 +1,72 @@
-- title: Student, Harvard CS
-  from: 2014
-  to: 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- title:  AI4ALL
+  weight: 1
+  location: University of Maryland, College Park
+  duration: Summer 2019
+  url:  https://inclusion.cs.umd.edu/outreach/ai4all
+  image:  https://res.cloudinary.com/ramaprashanth/image/upload/v1583377350/website_assets/ai4all_logo.png
+  image_alt:  AI4ALL
+  description:  As a Mentor for ~20 high school students, taught and trained them to build a boiler-plate AI 
+                algorithm for hand gestures mimicking with the NAO robot. 
 
-- title: Software Engineer, Google, UK
-  from: 2018
-  to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- title:  Perception and Robotics Group
+  weight: 2
+  location: University of Maryland, College Park
+  duration: Mar 2018 - Aug 2019
+  url:  http://prg.cs.umd.edu/
+  image:  https://res.cloudinary.com/ramaprashanth/image/upload/v1583375250/website_assets/prg_logo.png
+  image_alt:  PRG
+  description:  As Research Assistant, I worked on 3D dense object recognition and tracking revolving 
+                around real-time physical task execution using the Baxter robot.
+
+- title: University of Maryland
+  weight: 3
+  location: College Park, MD
+  duration: 2019 - 2020
+  url:  https://umd.edu/
+  image:  https://res.cloudinary.com/ramaprashanth/image/upload/v1583346259/website_assets/umd_logo.jpg
+  image_alt:  UMD
+  description:  As a M.Eng. Robotics candidate in <a href="https://robotics.umd.edu/" target="_blank">
+                Maryland Robotics Center</a>, I am particularly interested in Computer Vision and 
+                Deep Learning, and have spent much of my time here focusing on these fields. 
+
+- title:  GrabbnGo
+  weight: 4
+  location: Bangalore, India
+  duration: Mar 2018 - Jan 2019
+  url:  https://www.grabbngo.com/
+  image:  https://res.cloudinary.com/ramaprashanth/image/upload/v1583383861/website_assets/grabbngo_logo.jpg
+  image_alt:  GrabbnGo
+  description:  As Principal Software Engineer, I lead the conception of backend systems for the 
+                hyper-local takeaway service aggregator and spearheaded the transition towards 
+                big-data and microservices architecture.
+
+- title:  Ninjacart
+  weight: 5
+  location: Bangalore, India
+  duration: Jun 2015 - Jan 2018
+  url:  https://www.ninjacart.in/
+  image:  https://res.cloudinary.com/ramaprashanth/image/upload/v1583345916/website_assets/ninjacart_logo.png
+  image_alt:  Ninjacart
+  description:  As a Founding Engineer, conceived the key technologies that formed the backbone of 
+                the customer app and in-house products for the seamless supply chain operations.
+
+- title:  Shout
+  weight: 6
+  location: Bangalore, India
+  duration: Jun 2013 - Jun 2015
+  url:  https://www.facebook.com/myshouuut/
+  image:  https://res.cloudinary.com/ramaprashanth/image/upload/v1583345195/website_assets/shout_logo.png
+  image_alt:  Shout
+  description:  As the primary founder/developer of the hyper-local micro-blogging and networking service,
+                developed end-to-end iOS, Android and Web applications.
+
+- title:  College of Engineering, Guindy, Anna University
+  weight: 7
+  location: Chennai, India
+  duration: 2009 - 2013
+  url:  https://www.annauniv.edu/
+  image:  https://res.cloudinary.com/ramaprashanth/image/upload/v1583344722/website_assets/Anna_University_Logo.png
+  image_alt:  Anna University
+  description:  As a B.Eng. Electronics and Communication Engineering undergraduate, my interests revolved
+                around Computer Architecture, Signal Processing and Medical Electronics. I was also the 
+                Organising Secretary of the department and Marketing Head of the College's Tech Forum.
