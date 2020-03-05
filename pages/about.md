@@ -7,7 +7,7 @@ weight: 3
 
 # **About Me**
 
-Hi I am **{{ site.author.name }}** :wave:,<br><br>
+Hi I am **{{ site.author.name }}** :wave:,<br>
 
 An Engineer pursuing to conceive free will in robots. 
 
