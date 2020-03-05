@@ -30,7 +30,11 @@
           {% assign timeline = site.data.timeline | sort: 'weight' %}
           {% for item in timeline %}
             {% if item.inverted %}
-              <li class="timeline-inverted">
+              {% if item.weight == 1 %}
+                <li class="timeline-inverted" style="margin-bottom:32px;">
+              {% else %}
+                <li class="timeline-inverted">
+              {% endif %}
             {% else %}
               <li>
             {% endif %}
