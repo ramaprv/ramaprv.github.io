@@ -9,7 +9,7 @@ weight: 3
 
 Hi I am **{{ site.author.name }}** :wave:,<br>
 
-An Engineer pursuing to conceive free will :heart: in robots :robot:. 
+An Engineer :octocat: pursuing to conceive free will :heart: in robots :robot:. 
 
 I'm possibly the most positive person :innocent: on the face of Earth :earth_americas:. I love building things and you can always find me working on a challenging idea :bulb: ! My pursuit of happ'y'ness :angel: is when folk interact, feel happy, one in themselves, trustworthy with technology in their hands :gift:. The addictive adrenaline rush you get when the product you build enables others' lives is what drives me :rocket: !
 
