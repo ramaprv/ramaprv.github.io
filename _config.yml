@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : Rama Prashanth
 description         : >-
-                      I turn coffee :coffee: into code,
+                      I turn espresso :coffee: into code,
                       that grants free will :heart: to robots :robot:
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : ramaprashanth/ramaprashanth.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
