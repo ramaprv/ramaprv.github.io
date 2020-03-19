@@ -19,10 +19,14 @@
       {%- endfor -%}
     {%- endcapture -%}
 
+    {%- capture disp_img -%}
+      {{ "https://raw.githubusercontent.com/" + project.owner_name + project.name + "/master/result_1.png" }}
+    {%- endcapture -%}
+
     {%- assign project_type = "remote" -%}
     {%- assign project_id   = project.name -%}
     {% comment %} {%- assign project_img  = false -%} {% endcomment %}
-    {%- assign project_img  = project.html_url + "/master/result_1.png" -%}
+    {%- assign project_img  = disp_img -%}
     {%- assign project_name = titlecase | strip -%}
     {%- assign project_desc = project.description -%}
     {%- assign project_url  = project.html_url -%}
