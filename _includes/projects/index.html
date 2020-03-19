@@ -21,7 +21,8 @@
 
     {%- assign project_type = "remote" -%}
     {%- assign project_id   = project.name -%}
-    {%- assign project_img  = false -%}
+    {% comment %} {%- assign project_img  = false -%} {% endcomment %}
+    {%- assign project_img  = project.html_url + "/master/result_1.png" -%}
     {%- assign project_name = titlecase | strip -%}
     {%- assign project_desc = project.description -%}
     {%- assign project_url  = project.html_url -%}
