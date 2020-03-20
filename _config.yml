@@ -12,8 +12,6 @@ github_username     : ramaprashanth
 breadcrumbs         : false
 words_per_minute    : 200
 
-gems:
-  - jekyll-paginate-v2
 
 ### Plugins ###
 plugins:

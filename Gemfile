@@ -15,6 +15,10 @@ source "https://rubygems.org"
 gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+  gem "jekyll-seo-tag"
+  gem "jekyll-sitemap"
+  gem "jekyll-gist"
+  gem "jekyll-github-metadata"
   gem "jekyll-feed"
   gem "jemoji"
   gem "jekyll-paginate-v2"
