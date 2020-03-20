@@ -4,6 +4,8 @@ tags: [Version Control]
 style: fill
 color: secondary
 description: Benefits of version control and version control systems.
+date: 2016-02-09 00:00:00 +0100
+active: true
 ---
 
 Source: [atlassian](https://www.atlassian.com/git/tutorials/what-is-version-control)

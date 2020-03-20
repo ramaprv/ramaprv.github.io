@@ -4,6 +4,8 @@ tags: [Software Development, Clean Code]
 style: fill
 color: info
 description: These four “clean code” tips will dramatically improve your engineering team’s productivity
+date: 2018-12-10 00:00:00 +0100
+active: true
 ---
 
 Source: [Jonathan Fulton](https://engineering.videoblocks.com/these-four-clean-code-tips-will-dramatically-improve-your-engineering-teams-productivity-b5bd121dd150)

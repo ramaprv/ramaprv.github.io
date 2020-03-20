@@ -1,23 +1,34 @@
 ### Site Settings ###
+locale              : "en"
 title               : Rama Prashanth
 description         : >-
                       I turn espresso :coffee: into code,
                       that grants free will :heart: to robots :robot:
+url                 : ""
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : ramaprashanth/ramaprashanth.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : ramaprashanth/ramaprashanth.github.io
+github_username     : ramaprashanth
+breadcrumbs         : false
+words_per_minute    : 200
 
 
 ### Plugins ###
 plugins:
   - jemoji
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-paginate-v2
 
 
 ### Navbar Settings ###
 nav_exclude:                                            # The following paths are excluded from navbar
-  - pages/tags.html
-  - pages/404.html
-  - pages/index.md
+  - tags.html
+  - 404.html
+  - index.html
   - documentation/partials/**                           # For Documentation Only
 
 
@@ -53,8 +64,6 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
-  elements:                                             # For Documentation Only
-    output: true                                        # For Documentation Only
 
 
 ### Defaults for collections ###
@@ -64,11 +73,6 @@ defaults:
       type: "projects"
     values:
       layout: "page"
-  - scope:                                              # For Documentation Only
-      path: ""                                          # For Documentation Only
-      type: "elements"                                  # For Documentation Only
-    values:                                             # For Documentation Only
-      layout: "element"                                 # For Documentation Only
 
 
 ### Exclude from processing ###
@@ -80,3 +84,19 @@ exclude:
 
 google-analytics:
   id: "UA-158879927-1"
+
+
+### Paginate
+# Pagination settings
+pagination:
+  enabled: true
+  debug: false
+  per_page: 6
+  permalink: '/:num/'
+  title: ':title | :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  trail: 
+    before: 2
+    after: 2

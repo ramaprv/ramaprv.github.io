@@ -4,6 +4,8 @@ tags: [Software Development]
 style: fill
 color: dark
 description: A different “hello world” to demonstrate language features better.
+date: 2016-07-23 00:00:00 +0100
+active: true
 ---
 
 Source: [RICO STA. CRUZ](https://ricostacruz.com/til/a-better-hello-world)

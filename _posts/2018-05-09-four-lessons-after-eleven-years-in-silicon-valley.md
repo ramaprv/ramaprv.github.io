@@ -4,6 +4,8 @@ tags:
 style: fill
 color: success
 description: On the realities of opportunity, success, reputation, and relationships in tech.
+date: 2018-05-09 00:00:00 +0100
+active: true
 ---
 
 Source: [Ashley Mayer](https://medium.com/s/story/four-lessons-after-eleven-years-in-silicon-valley-d87507b7a4f6)

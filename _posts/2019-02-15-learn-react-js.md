@@ -4,6 +4,8 @@ tags: [React, JavaScript, Web Development]
 style: border
 color: primary
 description: A quick introduction to the popular JavaScript library.
+date: 2019-02-15 00:00:00 +0100
+active: true
 ---
 
 Source: [freecodecamp](https://medium.freecodecamp.org/learn-react-js-in-5-minutes-526472d292f4)

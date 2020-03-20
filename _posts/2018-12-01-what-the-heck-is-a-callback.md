@@ -4,6 +4,8 @@ tags: [JavaScript, Nodejs, Web Development]
 style: fill
 color: danger
 description: Learn and understand the basics of callbacks in just 6 minutes with easy examples.
+date: 2018-12-01 00:00:00 +0100
+active: true
 ---
 
 Source: [Brandon Morelli](https://codeburst.io/javascript-what-the-heck-is-a-callback-aba4da2deced)

@@ -1,0 +1,22 @@
+---
+layout: default
+title: Blog
+weight: 2
+permalink: /blog/
+pagination:
+  enabled: true
+---
+
+{% include blog/search.html %}
+
+<div class="card-group mt-2">
+
+  {% for post in paginator.posts %}
+    {% if post.active %}
+      {% include blog/post-card.html %}
+    {% endif %}
+  {% endfor %}
+
+</div>
+
+{% include pagination.html %}

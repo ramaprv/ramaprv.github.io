@@ -16,6 +16,9 @@
 
         {%- assign exclude = false -%}
 
+        {%- assign html_rel_url = html_page.url | remove: 'index.html' -%}
+        {%- assign words = html_rel_url | split: "/" -%}
+        
         {%- for exclude_path in site.nav_exclude -%}
 
           {%- if exclude_path == html_page.path -%}
@@ -27,6 +30,9 @@
               {%- assign exclude = true -%}
               {%- break -%}
             {%- endif -%}
+          {%- elsif words[2] -%}
+            {%- assign exclude = true -%}
+            {%- break -%}
           {%- endif -%}
 
         {%- endfor -%}
@@ -51,9 +57,11 @@
         {%- else -%}
           {%- assign url = html_page.url | relative_url -%}
           {%- assign target = "_self" -%}
-        {%- endif -%}
+        {%- endif -%}        
 
-        <a class="nav-item nav-link {{ active_status }}" target="{{ target }}" href="{{ url }}">{{ html_page.title }}</a>
+        {%- assign rel_url = url | remove: 'index.html' -%}
+
+        <a class="nav-item nav-link {{ active_status }}" target="{{ target }}" href="{{ rel_url }}">{{ html_page.title }}</a>
 
       {% endfor %}
 
