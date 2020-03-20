@@ -18,5 +18,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-github-metadata", "~> 2.12"
   spec.add_runtime_dependency "jekyll-include-cache", "~> 0.1"
   spec.add_runtime_dependency "jemoji", "~> 0.11"
+  spec.add_runtime_dependency "jekyll-paginate-v2", "~> 3.0"
 
 end
