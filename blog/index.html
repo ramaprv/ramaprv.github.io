@@ -10,7 +10,7 @@ pagination:
 {% include blog/search.html %}
 
 <div class="card-group mt-2">
-
+  | {{paginator}} |
   {% for post in paginator.posts %}
     {% if post.active %}
       {% include blog/post-card.html %}
