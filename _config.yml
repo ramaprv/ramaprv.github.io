@@ -87,10 +87,9 @@ google-analytics:
 
 
 ### Paginate
-# Pagination settings
 pagination:
   enabled: true
-  debug: true
+  debug: false
   per_page: 6
   permalink: '/:num/'
   title: ':title | :num of :max'
