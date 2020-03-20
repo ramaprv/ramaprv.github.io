@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "jekyll-paginate-v2"
+gemspec :path => "."
 
 gem "github-pages", group :jekyll_plugins
 
