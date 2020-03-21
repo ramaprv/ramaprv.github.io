@@ -11,9 +11,9 @@
     {% if page == paginator.page %}
       <span class="webjeda">{{ page }}</span>
     {% elsif page == 1 %}
-      <a href="/">{{ page }}</a>
+      <a href="{{ paginator.first_page_path }}">{{ page }}</a>
     {% else %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+      <a href="{{ paginator.page_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page | replace: 'index.html', ''}}{{ page }}/">{{ page }}</a>
     {% endif %}
   {% endfor %}
 
