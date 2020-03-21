@@ -23,7 +23,4 @@ Gem::Specification.new do |s|
     s.add_runtime_dependency 'jemoji', '~> 0.11'
     s.add_runtime_dependency 'jekyll-paginate-v2', '~> 3.0'
 
-    s.add_development_dependency 'html-proofer', '~> 3.0'
-    s.add_development_dependency 'rubocop', '~> 0.50'
-    s.add_development_dependency 'w3c_validators', '~> 1.3'
   end
