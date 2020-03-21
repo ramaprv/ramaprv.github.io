@@ -5,11 +5,11 @@ permalink: /about/
 weight: 3
 ---
 
-# **About Me**
+# **Who Dis**
 
-Hi I am **{{ site.author.name }}** :wave:,<br>
+Fine, I'll admit it: I am **{{ site.author.name }}** :wave:,<br>
 
-Engineer :octocat: pursuing to conceive free will :heart: in robots :robot:. 
+I'm an Engineer :octocat: pursuing to conceive free will :heart: in robots :robot:. 
 
 I'm possibly the most positive person :innocent: on the face of Earth :earth_americas:. I love building things and you can always find me working on a challenging idea :bulb: ! My pursuit of happ'y'ness :angel: is for people to interact, feel happy, one with and trustworthy with technology in their hands :gift:. The addictive adrenaline rush you get when the product you build enables others' lives is what drives me :rocket: !
 
