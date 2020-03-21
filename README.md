@@ -29,4 +29,8 @@ This theme is free and open source software, distributed under the The MIT Licen
 
 This theme was designed with the inspiration from these fine folks
 
-- [portfolYOU](https://github.com/YoussefRaafatNasry/portfolYOU)
+- [GitHub Pages](https://pages.github.com/)
+- [jekyll](https://jekyllrb.com/docs/github-pages/)
+- [Theme - portfolYOU](https://github.com/YoussefRaafatNasry/portfolYOU)
+- [Configuring non-supported plugin for GithubPages](https://stackoverflow.com/questions/28249255/how-do-i-configure-github-to-use-non-supported-jekyll-site-plugins)
+- [jemoji Cheatsheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
