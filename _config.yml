@@ -24,6 +24,16 @@ plugins:
   - jekyll-paginate-v2
 
 
+whitelist:
+  - jemoji
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-paginate-v2
+
+
 ### Navbar Settings ###
 nav_exclude:                                            # The following paths are excluded from navbar
   - tags.html
