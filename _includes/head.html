@@ -8,8 +8,26 @@
   <title>{{ site.title }}</title>
   <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/favicon.ico' | relative_url }}">
 
-  <!-- Bootstrap CSS CDN -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Bootstrap CSS CDN with Fallback -->
+  <link rel="stylesheet" href="https://pagecdn.io/lib/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous">
+  <script>
+  var test = document.createElement("div")
+  test.className = "hidden d-none"
+
+  document.head.appendChild(test)
+  var cssLoaded = window.getComputedStyle(test).display === "none"
+  document.head.removeChild(test)
+
+  if (!cssLoaded) {
+      var link = document.createElement("link");
+
+      link.type = "text/css";
+      link.rel = "stylesheet";
+      link.href = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css";
+
+      document.head.appendChild(link);
+  }
+  </script>
   
   <!-- Font Awesome CDN -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
