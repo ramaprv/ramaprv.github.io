@@ -1,79 +1,77 @@
-- title:  AI4ALL
+- title:  3DISC
   weight: 1
   inverted: True
-  location: University of Maryland, College Park
+  position: Research Intern
+  duration: May 2020 - Dec 2020
+  url:  https://3disc.com/
+  image:  https://res.cloudinary.com/ramaprashanth/image/upload/v1605582435/website_assets/3disc.png
+  image_alt:  3DISC
+  description:  Improved the 3D reconstruction reliably using Bundle Adjustment and Evaluated MGM against 
+                SGM variant to improve the density of stereo disparity maps.
+
+- title:  GAMMA Research Group
+  weight: 2
+  inverted: False
+  position: Research Assistant
+  duration: Aug 2020 - Dec 2020
+  url:  https://gamma.umd.edu/
+  image:  https://res.cloudinary.com/ramaprashanth/image/upload/v1605584054/website_assets/gamma.png
+  image_alt:  GAMMA
+  description:  Spearheading the research to incorporate emotional intelligence in the navigation pipeline
+                for social robots by fusing multi-sensor data using reinforcement learning.
+
+- title:  AI4ALL
+  weight: 3
+  inverted: True
+  position: Mentor
   duration: Summer 2019
   url:  https://inclusion.cs.umd.edu/outreach/ai4all
   image:  https://res.cloudinary.com/ramaprashanth/image/upload/v1583377350/website_assets/ai4all_logo.png
   image_alt:  AI4ALL
-  description:  As a Mentor for ~20 high school students, taught and trained them to build a boiler-plate AI 
+  description:  Taught and trained ~20 high school students to build a boiler-plate AI 
                 algorithm for hand gestures mimicking with the NAO robot. 
 
 - title:  Perception & Robotics Group
-  weight: 2
+  weight: 4
   inverted: False
-  location: University of Maryland, College Park
-  duration: Mar 2019 - Sep 2019
+  position: Research Assistant
+  duration: Mar - Sep 2019
   url:  http://prg.cs.umd.edu/
   image:  https://res.cloudinary.com/ramaprashanth/image/upload/v1583375250/website_assets/prg_logo.png
   image_alt:  PRG
-  description:  As Research Assistant, I worked on 3D dense object recognition and tracking revolving 
+  description:  Worked on 3D dense object recognition and tracking revolving 
                 around real-time physical task execution using the Baxter robot.
 
 - title: University of Maryland
-  weight: 3
+  weight: 5
   inverted: True
-  location: College Park, MD
+  position: Masters in Robotics
   duration: 2019 - 2020
   url:  https://umd.edu/
   image:  https://res.cloudinary.com/ramaprashanth/image/upload/v1583346259/website_assets/umd_logo.jpg
   image_alt:  UMD
-  description:  As a M.Eng. Robotics candidate in <a href="https://robotics.umd.edu/" target="_blank">
-                Maryland Robotics Center</a>, I am particularly interested in Computer Vision and 
+  description:  As a grad in <a href="https://robotics.umd.edu/" target="_blank">
+                Maryland Robotics Center</a>, I majorly worked in Computer Vision and 
                 Deep Learning, and have spent much of my time here focusing on these fields. 
 
-- title:  GrabbnGo
-  weight: 4
-  inverted: False
-  location: Bangalore, India
-  duration: Mar 2018 - Jan 2019
-  url:  https://www.grabbngo.com/
-  image:  https://res.cloudinary.com/ramaprashanth/image/upload/v1583383861/website_assets/grabbngo_logo.jpg
-  image_alt:  GrabbnGo
-  description:  As Principal Software Engineer, I lead the conception of backend systems for the 
-                hyper-local takeaway service aggregator and spearheaded the transition towards 
-                big-data and microservices architecture.
-
 - title:  Ninjacart
-  weight: 5
-  inverted: True
-  location: Bangalore, India
-  duration: Jun 2015 - Jan 2018
+  weight: 6
+  inverted: False
+  position: Founding Engineer
+  duration: 2014 - 2018
   url:  https://www.ninjacart.in/
   image:  https://res.cloudinary.com/ramaprashanth/image/upload/v1583345916/website_assets/ninjacart_logo.png
   image_alt:  Ninjacart
-  description:  As a Founding Engineer, conceived the key technologies that formed the backbone of 
+  description:  Conceived the key technologies that formed the backbone of 
                 the customer app and in-house products for the seamless supply chain operations.
-
-- title:  Shout
-  weight: 6
-  inverted: False
-  location: Bangalore, India
-  duration: Jun 2013 - Jun 2015
-  url:  https://www.facebook.com/myshouuut/
-  image:  https://res.cloudinary.com/ramaprashanth/image/upload/v1583345195/website_assets/shout_logo.png
-  image_alt:  Shout
-  description:  As the primary founder/developer of the hyper-local micro-blogging and networking service,
-                developed end-to-end iOS, Android and Web applications.
 
 - title:  College of Engineering, Guindy, Anna University
   weight: 7
   inverted: True
-  location: Chennai, India
+  position: Bachelors in Electronics & Communication
   duration: 2009 - 2013
   url:  https://www.annauniv.edu/
   image:  https://res.cloudinary.com/ramaprashanth/image/upload/v1583344722/website_assets/Anna_University_Logo.png
   image_alt:  Anna University
-  description:  As a B.Eng. Electronics and Communication Engineering undergraduate, my interests revolved
-                around Computer Architecture, Signal Processing and Medical Electronics. I was also the 
-                Organising Secretary of the department and Marketing Head of the College's Tech Forum.
+  description:  My interests revolved around Computer Architecture, Signal Processing and Medical Electronics.
+                I was also the Organizing Secretary of the department and Marketing Head of the College's Tech Forum.
