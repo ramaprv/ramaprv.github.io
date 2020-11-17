@@ -1,6 +1,4 @@
 # Rama Prashanth
-[![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)](LICENSE.md)
----
 
 This is a minimalist personal blog for Jekyll designed for GitHub Pages.
 
