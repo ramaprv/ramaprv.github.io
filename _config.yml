@@ -5,9 +5,9 @@ description         : >-
                       code :computer: + robots :robot: + startups :bulb:
 url                 : ""
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : ramaprashanth/ramaprashanth.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme        : ramaprashanth/ramaprashanth.github.io
-github_username     : ramaprashanth
+repository          : ramapvr/ramapvr.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+remote_theme        : ramapvr/ramapvr.github.io
+github_username     : ramapvr
 breadcrumbs         : false
 words_per_minute    : 200
 
@@ -48,18 +48,18 @@ author:
 # behance           : your_username
 # dribbble          : your_username
   email             : rv@ramaprashanth.com
-  facebook          : ramaprashanthrv
-  github            : ramaprashanth
+  facebook          : ramapvr
+  github            : ramapvr
 # gitlab            : your_username
-  instagram         : ramaprashanthrv
-  linkedin          : ramaprashanth
-  medium            : ramaprashanth
+  instagram         : ramapvr
+  linkedin          : ramapvr
+  medium            : ramapvr
 # soundcloud        : your_username
 # spotify           : your_username
 # stackoverflow     : your_user_id
 # tumblr            : your_username.tumblr.com
 # twitch            : your_username
-  twitter           : ramaprashanthrv
+  twitter           : ramaprvr
 # vimeo             : your_username
 # youtube           : your_channel_name
 
@@ -92,7 +92,7 @@ exclude:
   - "*.log"
 
 google-analytics:
-  id: "UA-158879927-1"
+  id: "G-PR0MN3B2R5"
 
 
 ### Paginate
