@@ -5,7 +5,7 @@ This is a minimalist personal blog for Jekyll designed for GitHub Pages.
 ## Basic Setup
 
 1. [Install Jekyll](http://jekyllrb.com)
-2. Clone the theme: `git clone https://github.com/ramaprashanth/ramaprashanth.github.io.git`
+2. Clone the theme: `git clone https://github.com/ramaprv/ramaprv.github.io.git`
 3. Edit `_config.yml` to personalize your site.
 
 ## Running the blog in local
@@ -19,7 +19,7 @@ In order to compile the assets and run Jekyll on local you need to follow those 
 
 ## Questions
 
-Having any issues file a [GitHub Issue](https://github.com/ramaprashanth/ramaprashanth.github.io/issues/new).
+Having any issues file a [GitHub Issue](https://github.com/ramaprv/ramaprv.github.io/issues/new).
 
 ## License
 
