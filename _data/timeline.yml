@@ -1,0 +1,32 @@
+- title: Robotics Engineer, Berkshire Grey
+  from: 2023
+  to: present
+  description: Developed robotic software that boosted operational efficiency by 40%, 
+    reduced error rates by 25%, and enhanced data processing and predictive capabilities, 
+    significantly improving warehouse automation productivity.
+
+- title: Software Engineer, Verdant Robotics
+  from: 2021
+  to: 2023
+  description: Designed and implemented distributed software for mobile robots, 
+   reducing deployment time by 99% and enabling real-time data streaming, 
+   ML pipeline integration, and active learning for large-scale robotic systems.
+
+- title: Research Intern, 3DISC
+  from: 2020
+  to: 2020
+  description: Improved the 3D reconstruction reliably using Bundle Adjustment and 
+    Evaluated MGM against SGM variant to improve the density of stereo disparity maps.
+
+- title: Research Assistant, University of Maryland, College Park
+  from: 2019
+  to: 2020
+  description: Worked on 3D dense object recognition and tracking for robotic manipulation tasks.
+    Designed navigation pipeline to incorporate emotional intelligence for social robots 
+    by fusing multi-sensor data using reinforcement learning.
+
+- title: Founding Engineer, Ninjacart
+  from: 2014
+  to: 2018
+  description: Conceived the key technologies that formed the backbone of 
+    the customer app and in-house products for the seamless supply chain operations.

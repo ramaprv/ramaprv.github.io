@@ -1,0 +1,11 @@
+- name: Computer Vision
+  percentage: 85
+  color: success
+
+- name: Machine Learning
+  percentage: 80
+  color: info
+
+- name: Robotics
+  percentage: 80
+  color: info
