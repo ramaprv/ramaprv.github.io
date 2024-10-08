@@ -201,10 +201,36 @@ plt.ylabel("Score")
 plt.show()
 ```
 
-**Image:**  
 ![](https://github.com/user-attachments/assets/df923d05-7507-4b02-808a-8184abcc14ed)
 
-This bar chart makes it easier to compare how the model is performing across different metrics.
+
+In machine learning, **Accuracy**, **Precision**, **Recall**, and the **F1-Score** are key metrics used to evaluate the performance of classification models:
+
+1. **Accuracy**: Measures the proportion of correctly predicted instances out of the total instances. It is best used when the classes are balanced but can be misleading for imbalanced datasets.
+
+   \[
+   \text{Accuracy} = \frac{\text{True Positives (TP)} + \text{True Negatives (TN)}}{\text{Total Instances}}
+   \]
+
+2. **Precision**: Focuses on the quality of positive predictions, i.e., the proportion of true positive predictions out of all positive predictions (both true and false). High precision means fewer false positives.
+
+   \[
+   \text{Precision} = \frac{\text{True Positives (TP)}}{\text{True Positives (TP)} + \text{False Positives (FP)}}
+   \]
+
+3. **Recall (Sensitivity or True Positive Rate)**: Measures the ability to capture all actual positive instances, i.e., the proportion of true positives identified out of all actual positives. High recall means fewer false negatives.
+
+   \[
+   \text{Recall} = \frac{\text{True Positives (TP)}}{\text{True Positives (TP)} + \text{False Negatives (FN)}}
+   \]
+
+4. **F1-Score**: The harmonic mean of Precision and Recall, providing a balance between them. It is especially useful when dealing with imbalanced classes.
+
+   \[
+   \text{F1-Score} = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}
+   \]
+
+These metrics are used to assess how well a model distinguishes between different classes, with Precision being useful when false positives are costly, Recall when missing positives is critical, and F1-Score offering a balanced measure.
 
 ---
 
