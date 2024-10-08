@@ -25,5 +25,3 @@ Hi I'm **{{ site.author.name }}** :wave:,<br>
 <div class="row">
 {% include about/timeline.html %}
 </div>
-
-<div class='sk-ww-linkedin-recommendations' data-embed-id='25472806'></div><script src='https://widgets.sociablekit.com/linkedin-recommendations/widget.js' async defer></script>
