@@ -8,7 +8,7 @@ description: In a world overflowing with digital distractions, digital minimalis
 
 # Embracing Digital Minimalism: Why It's Needed More Than Ever
 
-![Digital Minimalism Concept](https://unsplash.com/photos/fX2bK47cdmg)
+![Digital Minimalism Concept](https://github.com/user-attachments/assets/101986bc-90eb-4bd8-9267-482e9effa4ec)
 
 In today's hyperconnected world, we are surrounded by a constant stream of notifications, emails, social media posts, and the lure of endless content. The digital revolution has undoubtedly transformed our lives, but it has also created an overwhelming landscape of distractions that can take a toll on our mental well-being. Digital minimalism is an intentional approach to our technology usage, focusing on minimizing unnecessary digital clutter to create more meaningful, productive, and mindful interactions with our devices.
 
@@ -27,7 +27,7 @@ Digital minimalism is a philosophy that advocates for the deliberate and conscio
 
 ### 1. **Mental Well-being**
 
-![Mental Wellness](https://unsplash.com/photos/BQEGABVVtMI)
+![Mental Wellness](https://github.com/user-attachments/assets/3bc78c3b-3f68-428a-9d93-8aa5c106d9c6)
 
 Our digital devices can often leave us feeling drained and stressed. Studies have shown that excessive screen time, particularly social media, can contribute to anxiety, depression, and a sense of inadequacy. By practicing digital minimalism, we can reclaim mental space and reduce the negative psychological impacts of digital overload.
 
@@ -41,7 +41,7 @@ The internet is designed to capture our attention, often leading to short attent
 
 ### 4. **Better Relationships**
 
-![Deep Connections](https://unsplash.com/photos/mBQIfKlvowM)
+![Deep Connections](https://github.com/user-attachments/assets/3c9fd907-8c64-4650-bcc2-552c9b237745)
 
 In an age where people are more connected than ever, many find themselves feeling more isolated and disconnected. Social media gives the illusion of interaction, but often at the expense of real-life, meaningful connections. Digital minimalism emphasizes being present in the moment and fostering stronger relationships with the people around you.
 
@@ -64,7 +64,3 @@ Digital minimalism is not about rejecting technology but about using it intentio
 Start small, take a step back from the digital noise, and embrace a life of intentional, focused, and fulfilling digital minimalism.
 
 ---
-
-*Images sourced from [Unsplash](https://unsplash.com) and other copyright-free image repositories.*
-
-

@@ -8,7 +8,7 @@ description: Preparing for a robotics software engineer interview requires a ble
 
 ## Preparing for a Robotics Engineer Interview: A Comprehensive Guide
 
-![robotics engineer interview](https://via.placeholder.com/600x300)
+![robotics engineer interview](https://github.com/user-attachments/assets/66411aac-fd94-449b-a5e6-e0bab4e4e23c)
 
 The role of a Robotics Engineer is both dynamic and technical, requiring a deep understanding of robotics principles, software development, and practical hands-on experience with robotic systems. If you're aiming to land a job in this competitive field, it’s essential to prepare thoroughly for the interview. Here's a breakdown of what you need to focus on:
 
@@ -22,7 +22,7 @@ A strong grasp of robotics fundamentals is key. Review concepts such as:
 
 - **Path Planning and SLAM (Simultaneous Localization and Mapping)**: Familiarize yourself with common algorithms like A* and Dijkstra for pathfinding, and techniques like SLAM for mapping unknown environments.
 
-![robot path planning](https://via.placeholder.com/600x300)
+![robot path planning](https://github.com/user-attachments/assets/9e52d4fe-631f-432e-89d4-5b826317697e)
 
 ### 2. **Brush Up on Programming Skills**
 
@@ -47,8 +47,6 @@ Control systems are integral to robotics. Brush up on:
 - **PID Control**: Understand how PID controllers are used to maintain desired states in robotics systems (e.g., motor speed or robotic arm positions).
 
 - **State Estimation**: Learn about state estimation methods like Kalman Filters, which help robots make decisions based on noisy sensor data.
-
-![PID control theory](https://via.placeholder.com/600x300)
 
 ### 5. **Study Popular Robotics Applications**
 

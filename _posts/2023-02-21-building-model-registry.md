@@ -202,7 +202,7 @@ plt.show()
 ```
 
 **Image:**  
-![](https://dummyimage.com/600x400/000/fff&text=Model+Evaluation+Metrics)
+![](https://github.com/user-attachments/assets/df923d05-7507-4b02-808a-8184abcc14ed)
 
 This bar chart makes it easier to compare how the model is performing across different metrics.
 
