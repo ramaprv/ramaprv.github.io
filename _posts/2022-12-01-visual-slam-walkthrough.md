@@ -1,5 +1,5 @@
 ---
-title: Implementing Visual SLAM: A Step-by-Step Guide
+title: Implementing Visual SLAM - A Step-by-Step Guide
 tags: [SLAM, Computer Vision, Robotics, OpenCV, Python]
 style: fill
 color: danger

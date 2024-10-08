@@ -1,5 +1,5 @@
 ---
-title: Acing Robotics Engineer Interview: A Comprehensive Guide
+title: Acing Robotics Engineer Interview - A Comprehensive Guide
 tags: [Interview Preparation, Robotics, Software, Job Search]
 style: fill
 color: info

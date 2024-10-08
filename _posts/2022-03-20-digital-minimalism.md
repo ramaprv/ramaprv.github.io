@@ -1,5 +1,5 @@
 ---
-title: Digital Minimalism: Reclaiming Focus and Well-Being in a Hyperconnected World
+title: Digital Minimalism - Reclaiming Focus and Well-Being in a Hyperconnected World
 tags: [Social Media, Technology, Mental Health, Wellbeing]
 style: fill
 color: light

@@ -1,5 +1,5 @@
 ---
-title: The Future of Artificial Intelligence in 2050: Imagining Tomorrow’s AI
+title: The Future of Artificial Intelligence in 2050 - Imagining Tomorrow’s AI
 tags: [AI, Autonomous Cities, Education, Emotional AI]
 style: border
 color: primary
