@@ -8,8 +8,6 @@ description: By 2050, artificial intelligence will transcend today’s boundarie
 
 ## The Future of Artificial Intelligence in 2050: Imagining Tomorrow’s AI
 
-![AI and Futuristic Technology](https://github.com/user-attachments/assets/a8e95b5b-d3c7-4ff2-a3c6-0e0da05beaba)
-
 Artificial Intelligence (AI) has already made incredible strides in the 21st century, impacting industries like healthcare, finance, education, and transportation. As we approach 2050, the pace of AI development is expected to accelerate, driving transformative change across every facet of society. But what exactly will AI look like in the next three decades? Let’s explore the future possibilities.
 
 ### 1. AI in Healthcare: From Reactive to Proactive
@@ -28,6 +26,8 @@ AI will also be used in architecture, designing adaptive buildings that self-reg
 The future of education lies in AI-driven, personalized learning experiences. By 2050, classrooms will be equipped with AI tutors capable of understanding individual learning styles and adapting curriculum on the fly. Each student will have a tailored educational experience, allowing for more effective learning at their own pace.
 
 AI will also facilitate lifelong learning, guiding individuals through their careers by suggesting relevant skills to acquire based on the evolving job market. The role of teachers will transform from lecturers to mentors, fostering creativity and critical thinking while AI handles the technical aspects.
+
+![AI and Futuristic Technology](https://github.com/user-attachments/assets/a8e95b5b-d3c7-4ff2-a3c6-0e0da05beaba)
 
 ### 4. Emotional AI: Understanding Human Emotions
 One of the most profound changes in AI by 2050 will be its ability to understand and respond to human emotions. Emotional AI will lead to more natural interactions between humans and machines, creating systems that can empathize, predict our needs, and improve our well-being.

@@ -8,8 +8,6 @@ description: Preparing for a robotics software engineer interview requires a ble
 
 ## Preparing for a Robotics Engineer Interview: A Comprehensive Guide
 
-![robotics engineer interview](https://github.com/user-attachments/assets/66411aac-fd94-449b-a5e6-e0bab4e4e23c)
-
 The role of a Robotics Engineer is both dynamic and technical, requiring a deep understanding of robotics principles, software development, and practical hands-on experience with robotic systems. If you're aiming to land a job in this competitive field, it’s essential to prepare thoroughly for the interview. Here's a breakdown of what you need to focus on:
 
 ### 1. **Understand Robotics Fundamentals**
@@ -82,10 +80,8 @@ Lastly, behavioral interviews are common. Companies are looking for candidates w
 
 Landing a job as a Robotics Software Engineer requires a combination of technical expertise, practical experience, and the ability to think critically under pressure. By focusing on robotics fundamentals, honing your coding skills, gaining hands-on experience with robotics platforms, and practicing system design, you’ll be well-prepared to tackle even the most challenging interviews. Good luck!
 
----
+![robotics engineer interview](https://github.com/user-attachments/assets/66411aac-fd94-449b-a5e6-e0bab4e4e23c)
 
 Hope this guide helps you ace your next robotics software engineer interview!
 
 ---
-
-Feel free to adapt the post to fit your personal experiences or insights. Add real images or screenshots from your projects for a more customized approach.

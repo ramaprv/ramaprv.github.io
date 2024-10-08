@@ -8,13 +8,13 @@ description: In a world overflowing with digital distractions, digital minimalis
 
 # Embracing Digital Minimalism: Why It's Needed More Than Ever
 
-![Digital Minimalism Concept](https://github.com/user-attachments/assets/101986bc-90eb-4bd8-9267-482e9effa4ec)
-
 In today's hyperconnected world, we are surrounded by a constant stream of notifications, emails, social media posts, and the lure of endless content. The digital revolution has undoubtedly transformed our lives, but it has also created an overwhelming landscape of distractions that can take a toll on our mental well-being. Digital minimalism is an intentional approach to our technology usage, focusing on minimizing unnecessary digital clutter to create more meaningful, productive, and mindful interactions with our devices.
 
 ## What is Digital Minimalism?
 
 Digital minimalism is a philosophy that advocates for the deliberate and conscious use of technology. The idea isn't to eliminate technology entirely but to use it in a way that serves our values and goals, rather than letting it dictate how we spend our time. By simplifying our digital lives, we can reclaim our focus, reduce anxiety, and foster deeper connections with the world around us.
+
+![Digital Minimalism Concept](https://github.com/user-attachments/assets/101986bc-90eb-4bd8-9267-482e9effa4ec)
 
 ### Key Principles of Digital Minimalism
 
