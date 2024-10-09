@@ -48,9 +48,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 
-This code will output the image with keypoints detected using SIFT, which will be used for matching later. Below is an example of an image with keypoints:
-
-![SIFT Keypoints](https://i.imgur.com/abc123.png)
+This code will output the image with keypoints detected using SIFT, which will be used for matching later.
 
 ---
 
@@ -86,9 +84,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 
-The result of the above code is a side-by-side comparison of two frames with lines connecting matched features. Here’s a visual representation of feature matching:
-
-![Feature Matching](https://i.imgur.com/xyz456.png)
+The result of the above code is a side-by-side comparison of two frames with lines connecting matched features. 
 
 ---
 
