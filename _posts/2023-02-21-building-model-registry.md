@@ -6,7 +6,7 @@ color: success
 description: This blog post dives into the essentials of model evaluation using PyTorch and the process of creating a custom model registry.
 ---
 
-# Model Evaluation with PyTorch and Building a Model Registry from Scratch
+# Building a Model Registry from Scratch and Model Evaluation with PyTorch
 
 When working with machine learning models, the process doesn’t end with training. Evaluating models and keeping track of them is equally important, especially when working in production environments. In this post, we’ll explore how to evaluate a model using PyTorch and build a custom model registry from scratch to version and manage models efficiently.
 
@@ -186,7 +186,7 @@ loaded_model = registry.load_model("my_classification_model")
 
 ## 3. Visualizing the Evaluation Metrics
 
-It is helpful to visualize the evaluation metrics to provide a clearer picture of model performance. Below is a code snippet to visualize these metrics using matplotlib:
+An important part of a model registry is to be able to compare the performance of models and be able to tell which might be best suitable for a particular use case. It is helpful to visualize the evaluation metrics to provide a clearer picture of model performance. Below is a code snippet to visualize these metrics using matplotlib:
 
 ```python
 import matplotlib.pyplot as plt
@@ -201,20 +201,14 @@ plt.ylabel("Score")
 plt.show()
 ```
 
-![](https://github.com/user-attachments/assets/df923d05-7507-4b02-808a-8184abcc14ed)
+A confusion matrix is used in model evaluation to visualize the performance of a classification algorithm. It shows the number of correct and incorrect predictions for each class by comparing the true labels with the predicted labels.
 
-
-In machine learning, **Accuracy**, **Precision**, **Recall**, and the **F1-Score** are key metrics used to evaluate the performance of classification models:
-
-1. **Accuracy**: Measures the proportion of correctly predicted instances out of the total instances. It is best used when the classes are balanced but can be misleading for imbalanced datasets.
-
-2. **Precision**: Focuses on the quality of positive predictions, i.e., the proportion of true positive predictions out of all positive predictions (both true and false). High precision means fewer false positives.
-
-3. **Recall (Sensitivity or True Positive Rate)**: Measures the ability to capture all actual positive instances, i.e., the proportion of true positives identified out of all actual positives. High recall means fewer false negatives.
-
-4. **F1-Score**: The harmonic mean of Precision and Recall, providing a balance between them. It is especially useful when dealing with imbalanced classes.
+![](https://github.com/user-attachments/assets/63c42428-62bd-44eb-a9d4-589f29264365)
+![](https://github.com/user-attachments/assets/7a7cd930-c959-43e1-b67c-f230046defae)
 
 These metrics are used to assess how well a model distinguishes between different classes, with Precision being useful when false positives are costly, Recall when missing positives is critical, and F1-Score offering a balanced measure.
+
+![](https://github.com/user-attachments/assets/df923d05-7507-4b02-808a-8184abcc14ed)
 
 ---
 
