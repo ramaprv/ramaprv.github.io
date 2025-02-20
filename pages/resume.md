@@ -1,6 +1,6 @@
 ---
 layout: page
 title: Resume
-external_url: https://drive.google.com/file/d/1L-uFSbneK_WGnEV5esGaLdf2Fn-PhU2g/preview
+external_url: https://drive.google.com/file/d/1fzevUiOjx1kVZ3UV8gN-_dBqrIerEN3M/view
 weight: 4
 ---
