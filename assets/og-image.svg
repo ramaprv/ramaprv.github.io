@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0c0a0a"/>
+  <rect x="60" y="60" width="1080" height="510" rx="16" fill="none" stroke="#242020" stroke-width="2"/>
+  <text x="600" y="215" text-anchor="middle" font-family="Inter, sans-serif" font-weight="700" font-size="80" fill="#00d9ff">Rama</text>
+  <text x="600" y="310" text-anchor="middle" font-family="Inter, sans-serif" font-weight="800" font-size="96" fill="url(#g)">
+    Prashanth
+    <defs>
+      <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#00d9ff"/>
+        <stop offset="50%" stop-color="#7dd3fc"/>
+        <stop offset="100%" stop-color="#a78bfa"/>
+      </linearGradient>
+    </defs>
+  </text>
+  <text x="600" y="395" text-anchor="middle" font-family="Inter, sans-serif" font-weight="400" font-size="32" fill="#9a9090">Senior AI/GenAI Engineer</text>
+  <text x="600" y="445" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="400" font-size="22" fill="#5a5555">Building intelligent systems that think, reason, and act</text>
+  <circle cx="962" cy="462" r="8" fill="#00d9ff" opacity="0.3"/>
+  <circle cx="988" cy="462" r="8" fill="#7dd3fc" opacity="0.3"/>
+  <circle cx="1014" cy="462" r="8" fill="#a78bfa" opacity="0.3"/>
+</svg>
