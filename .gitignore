@@ -1,23 +1,14 @@
-# Ruby Gems
-*.gem
-
 # Design Files
 *.psd
 *.ai
 
-# IntelliJ
+# IDE
 .idea
 .vscode
 
-# Local Site Directories
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
-
-# Ruby Gems
-.bundle
-Gemfile.lock
+# OS
+.DS_Store
+Thumbs.db
 
 # Log Files
 *.log
