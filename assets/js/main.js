@@ -168,13 +168,63 @@
     revealObserver.observe(el);
   });
 
-  // ----- Smooth scroll for older Safari -----
+  // ----- Scroll progress bar -----
+  var progressBar = document.getElementById('progress-bar');
+  if (progressBar) {
+    function updateProgress() {
+      var scrollTop = window.scrollY;
+      var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      progressBar.style.width = docHeight > 0 ? (scrollTop / docHeight * 100) + '%' : '0%';
+    }
+    window.addEventListener('scroll', updateProgress, { passive: true });
+    updateProgress();
+  }
+
+  // ----- Stat count-up animation -----
+  (function () {
+    var statNums = document.querySelectorAll('.stat-num');
+    if (!statNums.length) return;
+
+    var counted = new Set();
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting && !counted.has(entry.target)) {
+          counted.add(entry.target);
+          var el = entry.target;
+          var text = el.textContent.trim();
+          var suffix = text.replace(/[\d.]+/g, '');
+          var numStr = text.replace(/[^\d.]/g, '');
+          var targetNum = parseFloat(numStr);
+          if (isNaN(targetNum)) return;
+          var duration = 1200;
+          var start = performance.now();
+
+          function animate(now) {
+            var elapsed = now - start;
+            var progress = Math.min(elapsed / duration, 1);
+            var eased = 1 - Math.pow(1 - progress, 3);
+            var current = Math.round(eased * targetNum);
+            el.textContent = current + suffix;
+            if (progress < 1) requestAnimationFrame(animate);
+            else el.textContent = text;
+          }
+          requestAnimationFrame(animate);
+        }
+      });
+    }, { threshold: 0.5 });
+
+    statNums.forEach(function (el) { observer.observe(el); });
+  }());
+
+  // ----- Smooth scroll with header offset -----
   document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
     anchor.addEventListener('click', function (e) {
       var target = document.querySelector(this.getAttribute('href'));
       if (target) {
         e.preventDefault();
-        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        var headerH = header ? header.offsetHeight : 0;
+        var top = target.getBoundingClientRect().top + window.scrollY - headerH - 10;
+        window.scrollTo({ top: top, behavior: 'smooth' });
       }
     });
   });
