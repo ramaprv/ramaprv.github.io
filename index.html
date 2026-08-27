@@ -1,8 +1,15 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
   <meta name="description" content="Rama Prashanth, Staff AI Engineer. 11+ years shipping production AI systems end-to-end, including LLM, RAG, agentic AI, and distributed systems at scale. IEEE-published researcher." />
   <meta property="og:title" content="Rama Prashanth | Staff AI Engineer" />
   <meta property="og:description" content="Staff AI Engineer with 11+ years shipping production LLM, RAG, agentic AI, and distributed systems at 200+ Gbps scale." />
@@ -80,6 +87,10 @@
           <li><a href="#contact"        class="nav-link">Contact</a></li>
         </ul>
       </nav>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light/dark theme">
+        <svg class="theme-icon theme-icon-sun" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+        <svg class="theme-icon theme-icon-moon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
       <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
@@ -154,8 +165,13 @@
             <div class="tag-cloud reveal">
               <span class="tag tag-accent" title="Etihad Airways">Aviation</span>
               <span class="tag tag-accent" title="Rivian · VW · Applied Intuition">Autonomous Vehicles</span>
+              <span class="tag tag-accent" title="Rivian · VW">EV</span>
+              <span class="tag tag-accent" title="Applied Intuition">Simulation</span>
+              <span class="tag tag-accent" title="Berkshire Grey · Ninjacart">Warehouse Automation</span>
               <span class="tag tag-accent" title="Berkshire Grey">Robotics</span>
-              <span class="tag tag-accent" title="Verdant Robotics">Precision Agriculture</span>
+              <span class="tag tag-accent" title="Verdant Robotics · Ninjacart">Agriculture</span>
+              <span class="tag tag-accent" title="GrabbnGo · Ninjacart">E-Commerce</span>
+              <span class="tag tag-accent" title="Ninjacart · GrabbnGo">Supply Chain &amp; Logistics</span>
               <span class="tag tag-accent" title="Conversational Platforms">Enterprise AI</span>
             </div>
           </div>
@@ -341,10 +357,10 @@
                 <li>Designed and automated ETL pipelines using Spark, Airflow, and PostgreSQL to consolidate financial transaction data across 50+ retail locations; reduced reporting pipeline latency by 40%.</li>
               </ul>
               <div class="tag-cloud">
-                <span class="tag">Python</span>
-                <span class="tag">PostgreSQL</span>
+                <span class="tag tag-accent">Python</span>
+                <span class="tag tag-accent">Spark</span>
                 <span class="tag">Redis</span>
-                <span class="tag">Spark</span>
+                <span class="tag">PostgreSQL</span>
                 <span class="tag">Airflow</span>
               </div>
             </div>
@@ -369,11 +385,11 @@
                 <li>Designed ML-driven demand forecasting and GPS/IoT-integrated last-mile logistics pipelines; reduced delivery cycle times by 30%, inventory waste by 25%, and improved gross margins by 15%.</li>
               </ul>
               <div class="tag-cloud">
-                <span class="tag tag-accent">Founding Engineer</span>
-                <span class="tag">Python</span>
+                <span class="tag tag-accent">ML Forecasting</span>
+                <span class="tag tag-accent">Python</span>
+                <span class="tag">Founding Engineer</span>
                 <span class="tag">MySQL</span>
                 <span class="tag">Redis</span>
-                <span class="tag">ML Forecasting</span>
               </div>
             </div>
           </div>

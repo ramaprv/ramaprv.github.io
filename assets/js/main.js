@@ -61,6 +61,14 @@
     }
   });
 
+  // ----- Light/dark theme toggle -----
+  const themeToggle = document.getElementById('themeToggle');
+  themeToggle.addEventListener('click', function () {
+    var next = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  });
+
   // ----- Project pagination -----
   (function () {
     var grid       = document.getElementById('projectsGrid');
