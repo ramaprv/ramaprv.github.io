@@ -519,7 +519,7 @@ strong {
 
 .timeline-dot {
   position: absolute;
-  left: -2.75rem;
+  left: -2.5625rem;
   top: 1.4rem;
   width: 12px;
   height: 12px;
@@ -1152,7 +1152,7 @@ strong {
   .hero-name { font-size: clamp(2.8rem, 12vw, 4rem); }
 
   .timeline { padding-left: 1.5rem; }
-  .timeline-dot { left: -1.9rem; }
+  .timeline-dot { left: -1.8125rem; }
 }
 
 @media (max-width: 480px) {
