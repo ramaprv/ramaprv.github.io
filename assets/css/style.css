@@ -484,6 +484,16 @@ strong {
   letter-spacing: 0.03em;
 }
 
+.about-side {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.about-side .tag-cloud {
+  margin-top: 0;
+}
+
 /* =============================================
    TIMELINE (EXPERIENCE)
    ============================================= */
