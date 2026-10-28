@@ -203,7 +203,7 @@
           var suffix = text.replace(/[\d.]+/g, '');
           var numStr = text.replace(/[^\d.]/g, '');
           var targetNum = parseFloat(numStr);
-          if (isNaN(targetNum)) return;
+          if (isNaN(targetNum) || targetNum < 10) return;
           var duration = 1200;
           var start = performance.now();
 
@@ -232,7 +232,9 @@
         e.preventDefault();
         var headerH = header ? header.offsetHeight : 0;
         var top = target.getBoundingClientRect().top + window.scrollY - headerH - 10;
-        window.scrollTo({ top: top, behavior: 'smooth' });
+        var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        window.scrollTo({ top: top, behavior: reduce ? 'auto' : 'smooth' });
+        if (this.classList.contains('skip-link')) target.focus({ preventScroll: true });
       }
     });
   });

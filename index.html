@@ -8,6 +8,7 @@
       var stored = localStorage.getItem('theme');
       var theme = stored || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
       document.documentElement.setAttribute('data-theme', theme);
+      document.documentElement.classList.add('js');
     })();
   </script>
   <meta name="description" content="Rama Prashanth, Staff AI Engineer. 11+ years shipping production AI systems end-to-end, including LLM, RAG, agentic AI, and distributed systems at scale. IEEE-published researcher." />
@@ -15,15 +16,18 @@
   <meta property="og:description" content="Staff AI Engineer with 11+ years shipping production LLM, RAG, agentic AI, and distributed systems at 200+ Gbps scale." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://ramaprashanth.com/" />
-  <meta property="og:image" content="https://ramaprashanth.com/assets/og-image.svg" />
+  <meta property="og:image" content="https://ramaprashanth.com/assets/og-image.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
-  <meta property="og:image:type" content="image/svg+xml" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:alt" content="Rama Prashanth, Staff AI Engineer" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Rama Prashanth | Staff AI Engineer" />
   <meta name="twitter:description" content="Staff AI Engineer with 11+ years shipping production LLM, RAG, agentic AI, and distributed systems at scale. IEEE-published researcher." />
-  <meta name="twitter:image" content="https://ramaprashanth.com/assets/og-image.svg" />
+  <meta name="twitter:image" content="https://ramaprashanth.com/assets/og-image.png" />
   <link rel="canonical" href="https://ramaprashanth.com/" />
+  <meta name="theme-color" content="#0c0a0a" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
   <title>Rama Prashanth | Staff AI Engineer</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -32,6 +36,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon.png" />
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
   <link rel="shortcut icon" href="assets/favicon.png" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
   <link rel="stylesheet" href="assets/css/style.css" />
   <script type="application/ld+json">
   {
@@ -47,8 +52,23 @@
       "https://github.com/ramaprv",
       "https://linkedin.com/in/ramaprv"
     ],
-    "email": "rv@ramaprashanth.com",
-    "knowsAbout": ["Artificial Intelligence", "Machine Learning", "LLMs", "RAG", "Agentic AI", "Distributed Systems", "MLOps", "Python"]
+    "email": "mailto:rv@ramaprashanth.com",
+    "image": "https://ramaprashanth.com/assets/og-image.png",
+    "address": { "@type": "PostalAddress", "addressLocality": "Dubai", "addressCountry": "AE" },
+    "worksFor": { "@type": "Organization", "name": "Etihad Airways" },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "University of Maryland, College Park" },
+      { "@type": "CollegeOrUniversity", "name": "College of Engineering, Guindy, Anna University" }
+    ],
+    "hasCredential": {
+      "@type": "EducationalOccupationalCredential",
+      "name": "AWS Certified AI Business Strategist",
+      "credentialCategory": "certification",
+      "recognizedBy": { "@type": "Organization", "name": "Amazon Web Services" },
+      "dateCreated": "2026-10",
+      "url": "https://www.credly.com/badges/d399130d-adc7-43e9-b087-7e9d62fd1863"
+    },
+    "knowsAbout": ["Artificial Intelligence", "Machine Learning", "LLMs", "RAG", "Agentic AI", "Model Context Protocol", "LangGraph", "Distributed Systems", "MLOps", "Robotics", "Python"]
   }
   </script>
   <script type="application/ld+json">
@@ -62,6 +82,8 @@
   </script>
 </head>
 <body>
+
+  <a href="#main" class="skip-link">Skip to content</a>
 
   <div id="progress-bar" class="progress-bar"></div>
 
@@ -97,7 +119,7 @@
     </div>
   </header>
 
-  <main>
+  <main id="main" tabindex="-1">
 
     <!-- ===== HERO ===== -->
     <section id="hero" class="section hero">
@@ -156,6 +178,14 @@
               <div class="stat-card reveal">
                 <span class="stat-num gradient-text">11+</span>
                 <span class="stat-label">Years Experience</span>
+              </div>
+              <div class="stat-card reveal">
+                <span class="stat-num gradient-text">200+</span>
+                <span class="stat-label">Gbps Telemetry Scale</span>
+              </div>
+              <div class="stat-card reveal">
+                <span class="stat-num gradient-text">1M+</span>
+                <span class="stat-label">Daily Robot Operations</span>
               </div>
               <div class="stat-card reveal">
                 <span class="stat-num gradient-text">50+</span>
@@ -232,7 +262,7 @@
               </div>
               <ul class="role-bullets">
                 <li>Designed a distributed EV telemetry platform using Go, Kafka, and AWS EKS to process 200 Gbps of real-time multi-vehicle data across 10,000+ active vehicles; powering predictive maintenance models that reduced vehicle downtime by 25%.</li>
-                <li>Built an LLM and RAG analytics platform using GPT, Pinecone, and FastAPI, translating complex battery telemetry into natural-language insights for 500+ non-technical stakeholders; increasing self-service data adoption by 30%.</li>
+                <li>Built an LLM and RAG analytics platform using GPT, Pinecone, and FastAPI, translating complex battery telemetry and fleet-health data into natural-language insights for 500+ non-technical stakeholders; increasing self-service data adoption by 30%.</li>
                 <li>Established GitOps MLOps architecture with ArgoCD, Docker, and EKS, implementing automated blue-green deployments and canary validation to reduce model deployment cycles from 4 hours to 15 minutes at 99.9% availability.</li>
               </ul>
               <div class="tag-cloud">
@@ -264,7 +294,7 @@
               <ul class="role-bullets">
                 <li>Re-architected concurrent autonomous-driving simulation infrastructure using Python, C++, and gRPC, parallelizing scenario orchestration; reduced safety-critical simulation cycles from 2 days to 4 hours and delivered 6× faster model iteration.</li>
                 <li>Designed and productionized a GenAI synthetic-data engine combining LLMs and RAG to procedurally generate contextually diverse AV scenarios; expanded rare edge-case coverage by 40% while reducing manual scenario authoring time by 70%.</li>
-                <li>Built an ML-based real-time anomaly detection system for 100+ concurrent simulation instances with adaptive thresholding; improved simulation success rates from 82% to 96% while cutting false-positive alerts by 45%.</li>
+                <li>Built an ML-based real-time anomaly detection system for 100+ concurrent simulation instances with adaptive thresholding and automated root-cause attribution; improved simulation success rates from 82% to 96% while cutting false-positive alerts by 45%.</li>
               </ul>
               <div class="tag-cloud">
                 <span class="tag tag-accent">Autonomous Vehicles</span>
@@ -294,6 +324,7 @@
               <ul class="role-bullets">
                 <li>Led Python and ROS backend architecture for a high-throughput warehouse robotics orchestration engine coordinating 1M+ daily pick-and-place operations; increasing end-to-end efficiency by 40% and reducing item error rates by 25%.</li>
                 <li>Productionized ML pick-decision models using MLflow, Kubeflow, and Kubernetes at sub-100ms inference and 10K+ predictions/second; integrated an LLM natural-language interface for robot diagnostics, improving pick success rates by 15%.</li>
+                <li>Built an LLM-powered conversational assistant using RAG, LangChain, and Elasticsearch that lets warehouse operators investigate robot performance and retrieve engineering knowledge in natural language; reduced troubleshooting time by 50%.</li>
               </ul>
               <div class="tag-cloud">
                 <span class="tag tag-accent">Robotics</span>
@@ -302,7 +333,7 @@
                 <span class="tag">ROS</span>
                 <span class="tag">MLflow</span>
                 <span class="tag">Kubeflow</span>
-                <span class="tag">Kubernetes</span>
+                <span class="tag">LangChain</span>
               </div>
             </div>
           </div>
@@ -772,7 +803,7 @@
     </section>
 
     <!-- ===== PUBLICATIONS ===== -->
-    <section id="publications" class="section section-alt">
+    <section id="publications" class="section">
       <div class="container">
         <h2 class="section-title">Publications</h2>
         <div class="pub-grid">
@@ -806,9 +837,6 @@
               Emotion-aware neural network for predicting pedestrian crossing intent, fusing appearance and
               behavioral cues for safer and more natural autonomous social robot navigation.
             </p>
-            <div class="pub-roles">
-              <span class="badge mono">IEEE ICRA 2023</span>
-            </div>
             <div class="pub-links">
               <a href="https://arxiv.org/abs/2011.08682" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">arXiv</a>
             </div>
@@ -819,7 +847,7 @@
     </section>
 
     <!-- ===== EDUCATION ===== -->
-    <section id="education" class="section">
+    <section id="education" class="section section-alt">
       <div class="container">
         <h2 class="section-title">Education</h2>
         <div class="edu-grid">
@@ -847,10 +875,17 @@
     </section>
 
     <!-- ===== CERTIFICATIONS ===== -->
-    <section class="section section-alt">
+    <section id="certifications" class="section">
       <div class="container">
         <h2 class="section-title">Certifications</h2>
         <div class="cert-grid">
+          <a href="https://www.credly.com/badges/d399130d-adc7-43e9-b087-7e9d62fd1863" target="_blank" rel="noopener noreferrer" class="cert-card cert-card-link reveal">
+            <span class="cert-check" aria-hidden="true">&#10003;</span>
+            <div>
+              <div class="cert-name">AWS Certified AI Business Strategist</div>
+              <div class="cert-issuer">Amazon Web Services · Oct 2026 &#8599;</div>
+            </div>
+          </a>
           <div class="cert-card reveal">
             <span class="cert-check" aria-hidden="true">&#10003;</span>
             <div>
@@ -891,7 +926,7 @@
     </section>
 
     <!-- ===== CONTACT ===== -->
-    <section id="contact" class="section">
+    <section id="contact" class="section section-alt">
       <div class="container contact-container">
         <h2 class="section-title">Get in Touch</h2>
         <p class="contact-intro">

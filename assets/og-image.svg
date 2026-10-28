@@ -12,8 +12,8 @@
       </linearGradient>
     </defs>
   </text>
-  <text x="600" y="395" text-anchor="middle" font-family="Inter, sans-serif" font-weight="400" font-size="32" fill="#9a9090">Senior AI/GenAI Engineer</text>
-  <text x="600" y="445" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="400" font-size="22" fill="#5a5555">Building intelligent systems that think, reason, and act</text>
+  <text x="600" y="395" text-anchor="middle" font-family="Inter, sans-serif" font-weight="400" font-size="32" fill="#9a9090">Staff AI Engineer</text>
+  <text x="600" y="445" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="400" font-size="22" fill="#5a5555">Shipping production AI systems end-to-end</text>
   <circle cx="962" cy="462" r="8" fill="#00d9ff" opacity="0.3"/>
   <circle cx="988" cy="462" r="8" fill="#7dd3fc" opacity="0.3"/>
   <circle cx="1014" cy="462" r="8" fill="#a78bfa" opacity="0.3"/>

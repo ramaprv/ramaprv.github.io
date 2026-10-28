@@ -15,6 +15,7 @@
   --accent:      #00d9ff;
   --accent-dim:  color-mix(in srgb, var(--accent) 10%, transparent);
   --accent-glow: color-mix(in srgb, var(--accent) 20%, transparent);
+  --accent-hover:#33e3ff;
   --accent-pub:  #f7c057;
   --accent-purple: #a78bfa;
 
@@ -54,6 +55,7 @@
   --accent:      #0088a8;
   --accent-dim:  rgba(0, 136, 168, 0.08);
   --accent-glow: rgba(0, 136, 168, 0.18);
+  --accent-hover:#0ea5c9;
   --accent-pub:  #9a6a00;
   --accent-purple: #7c5cd6;
 
@@ -110,6 +112,31 @@ strong {
 
 /* Ensure hidden attribute works even with CSS resets */
 [hidden] { display: none !important; }
+
+/* Keyboard focus */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: var(--radius-sm);
+}
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -3rem;
+  z-index: 300;
+  padding: 0.5rem 1rem;
+  background: var(--accent);
+  color: #000;
+  font-weight: 600;
+  border-radius: var(--radius-sm);
+  transition: top var(--transition);
+}
+
+.skip-link:focus { top: 1rem; }
+
+/* Anchor targets clear the fixed header */
+section[id] { scroll-margin-top: 4.5rem; }
 
 /* Custom scrollbar */
 ::-webkit-scrollbar { width: 5px; }
@@ -189,8 +216,8 @@ strong {
 }
 
 .btn-primary:hover {
-  background: #33e3ff;
-  border-color: #33e3ff;
+  background: var(--accent-hover);
+  border-color: var(--accent-hover);
   box-shadow: 0 0 20px var(--accent-glow);
 }
 
@@ -263,13 +290,13 @@ strong {
 }
 
 /* Reveal animation */
-.reveal {
+.js .reveal {
   opacity: 0;
   transform: translateY(18px);
   transition: opacity 0.55s ease, transform 0.55s ease;
 }
 
-.reveal.revealed {
+.js .reveal.revealed {
   opacity: 1;
   transform: translateY(0);
 }
@@ -515,9 +542,11 @@ strong {
   margin-bottom: 1.25rem;
 }
 
+.about-grid > * { min-width: 0; }
+
 .stats-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
 }
 
@@ -811,8 +840,8 @@ strong {
 }
 
 .project-badge-cv {
-  background: rgba(167, 139, 250, 0.12);
-  border-color: rgba(167, 139, 250, 0.3);
+  background: color-mix(in srgb, var(--accent-purple) 12%, transparent);
+  border-color: color-mix(in srgb, var(--accent-purple) 30%, transparent);
   color: var(--accent-purple);
 }
 
@@ -911,8 +940,8 @@ strong {
 }
 
 .pub-card:hover {
-  border-color: rgba(247, 192, 87, 0.3);
-  box-shadow: 0 0 30px rgba(247, 192, 87, 0.05);
+  border-color: color-mix(in srgb, var(--accent-pub) 30%, transparent);
+  box-shadow: 0 0 30px color-mix(in srgb, var(--accent-pub) 5%, transparent);
 }
 
 .pub-venue {
@@ -922,15 +951,15 @@ strong {
   font-weight: 500;
   padding: 0.25rem 0.65rem;
   border-radius: var(--radius-sm);
-  background: rgba(247, 192, 87, 0.12);
-  border: 1px solid rgba(247, 192, 87, 0.3);
+  background: color-mix(in srgb, var(--accent-pub) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent-pub) 30%, transparent);
   color: var(--accent-pub);
   margin-bottom: 1rem;
 }
 
 .pub-venue-alt {
-  background: rgba(167, 139, 250, 0.12);
-  border-color: rgba(167, 139, 250, 0.3);
+  background: color-mix(in srgb, var(--accent-purple) 12%, transparent);
+  border-color: color-mix(in srgb, var(--accent-purple) 30%, transparent);
   color: var(--accent-purple);
 }
 
@@ -959,10 +988,10 @@ strong {
 .pub-citations {
   font-size: 0.75rem;
   color: var(--accent-pub);
-  background: rgba(247, 192, 87, 0.08);
+  background: color-mix(in srgb, var(--accent-pub) 8%, transparent);
   padding: 0.15rem 0.5rem;
   border-radius: var(--radius-sm);
-  border: 1px solid rgba(247, 192, 87, 0.2);
+  border: 1px solid color-mix(in srgb, var(--accent-pub) 20%, transparent);
 }
 
 .pub-desc {
@@ -1055,6 +1084,10 @@ strong {
 
 .cert-card:hover {
   border-color: var(--accent);
+}
+
+.cert-card-link:hover .cert-issuer {
+  color: var(--accent);
 }
 
 .cert-check {
@@ -1192,7 +1225,8 @@ strong {
 
 /* Mobile nav */
 @media (max-width: 768px) {
-  .menu-btn { display: flex; }
+  .menu-btn { display: flex; margin-left: 0.75rem; }
+  .theme-toggle { margin-left: auto; }
 
   .nav-list {
     display: none;
@@ -1225,4 +1259,16 @@ strong {
   :root { --section-py: 4rem; }
   .timeline-header { flex-direction: column; }
   .edu-abbr { font-size: 1.6rem; min-width: 2.5rem; }
+  .stat-card { padding: 1.25rem 0.75rem; }
+  .stat-num { font-size: 2rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .js .reveal { opacity: 1; transform: none; }
 }
